@@ -1,0 +1,31 @@
+---
+title: Unified Open Global Weather (UOGW) - Multi-layer open atmospheric data commons
+homepage: https://github.com/Midwest-Stratospheric/Unified-Open-Global-Weather
+category: Climate+Weather
+description: Versioned JSON catalog and daily data packages indexing public surface, marine, upper-air, stratospheric and satellite sources (26 catalog datasets including NOAA IGRA, GHCN-Daily, NDBC buoys, Argo, WOUDC ozone, GOES) plus first-party ground station, radiation and high-altitude balloon flight data from Casey, Illinois. Plain files on GitHub, no login or API key. Start at catalog/catalog.json and data/latest/hub-endpoints.json.
+version:
+keywords: weather, climate, upper-air, radiosonde, marine, stratosphere, balloon, open data
+image:
+temporal: 2026-present (daily updates; upstream archives vary)
+spatial: global, with first-party data from Casey, Illinois, USA
+access_level: public
+copyrights:
+accrual_periodicity: daily
+specification:
+data_quality:
+data_dictionary: https://github.com/Midwest-Stratospheric/Unified-Open-Global-Weather/blob/main/docs/DATA_PACKAGES.md
+language: en
+license: CC BY 4.0 (curated indexes); original agency licenses apply to source observations
+publisher: Aerostratospheric
+organization:
+issued_time: 2026.08
+sources:
+  - name: NOAA Integrated Global Radiosonde Archive (IGRA)
+    access_url: https://www.ncei.noaa.gov/products/weather-balloon/integrated-global-radiosonde-archive
+  - name: NOAA National Data Buoy Center
+    access_url: https://www.ndbc.noaa.gov/
+  - name: NOAA GHCN-Daily
+    access_url: https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily
+references:
+  - title: "UOGW: An Open Multi-Layer Atmospheric Data Commons (Zenodo)"
+    reference: https://doi.org/10.5281/zenodo.21880000
